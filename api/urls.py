@@ -3,5 +3,6 @@ from . import views
 
 
 urlpatterns = [
-    path('', views.getRoutes),
+    path('', views.getRoutes), # get Json Response
+    path('/notes', views.getNotes), # get the notes
 ]
