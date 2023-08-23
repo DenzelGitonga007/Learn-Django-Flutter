@@ -8,6 +8,7 @@ urlpatterns = [
     path('notes/create/', views.createNote), # create note
     path('notes/<str:pk>/', views.getNote), # get the note
     path('notes/<str:pk>/update', views.updateNote), # update the note
+    path('notes/<str:pk>/delete', views.deleteNote), # delete the note
     
     
 ]
